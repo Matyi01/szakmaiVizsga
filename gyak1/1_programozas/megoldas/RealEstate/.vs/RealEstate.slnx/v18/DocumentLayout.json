@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\Documents\\git\\szakmaiVizsga\\gyak1\\1_programozas\\megoldas\\RealEstate\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0778DE36-7A01-4BE0-BAEC-7593E58E2492}|RealEstate\\RealEstate.csproj|c:\\users\\admin\\documents\\git\\szakmaivizsga\\gyak1\\1_programozas\\megoldas\\realestate\\realestate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0778DE36-7A01-4BE0-BAEC-7593E58E2492}|RealEstate\\RealEstate.csproj|solutionrelative:realestate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0778DE36-7A01-4BE0-BAEC-7593E58E2492}|RealEstate\\RealEstate.csproj|c:\\users\\admin\\documents\\git\\szakmaivizsga\\gyak1\\1_programozas\\megoldas\\realestate\\realestate\\ad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0778DE36-7A01-4BE0-BAEC-7593E58E2492}|RealEstate\\RealEstate.csproj|solutionrelative:realestate\\ad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0778DE36-7A01-4BE0-BAEC-7593E58E2492}|RealEstate\\RealEstate.csproj|c:\\users\\admin\\documents\\git\\szakmaivizsga\\gyak1\\1_programozas\\megoldas\\realestate\\realestate\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0778DE36-7A01-4BE0-BAEC-7593E58E2492}|RealEstate\\RealEstate.csproj|solutionrelative:realestate\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0778DE36-7A01-4BE0-BAEC-7593E58E2492}|RealEstate\\RealEstate.csproj|c:\\users\\admin\\documents\\git\\szakmaivizsga\\gyak1\\1_programozas\\megoldas\\realestate\\realestate\\seller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0778DE36-7A01-4BE0-BAEC-7593E58E2492}|RealEstate\\RealEstate.csproj|solutionrelative:realestate\\seller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ad.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\git\\szakmaiVizsga\\gyak1\\1_programozas\\megoldas\\RealEstate\\RealEstate\\Ad.cs",
+              "RelativeDocumentMoniker": "RealEstate\\Ad.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\git\\szakmaiVizsga\\gyak1\\1_programozas\\megoldas\\RealEstate\\RealEstate\\Ad.cs",
+              "RelativeToolTip": "RealEstate\\Ad.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwBkAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T09:19:12.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Seller.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\git\\szakmaiVizsga\\gyak1\\1_programozas\\megoldas\\RealEstate\\RealEstate\\Seller.cs",
+              "RelativeDocumentMoniker": "RealEstate\\Seller.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\git\\szakmaiVizsga\\gyak1\\1_programozas\\megoldas\\RealEstate\\RealEstate\\Seller.cs",
+              "RelativeToolTip": "RealEstate\\Seller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T09:18:14.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\git\\szakmaiVizsga\\gyak1\\1_programozas\\megoldas\\RealEstate\\RealEstate\\Category.cs",
+              "RelativeDocumentMoniker": "RealEstate\\Category.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\git\\szakmaiVizsga\\gyak1\\1_programozas\\megoldas\\RealEstate\\RealEstate\\Category.cs",
+              "RelativeToolTip": "RealEstate\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T09:15:51.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\git\\szakmaiVizsga\\gyak1\\1_programozas\\megoldas\\RealEstate\\RealEstate\\Program.cs",
+              "RelativeDocumentMoniker": "RealEstate\\Program.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\git\\szakmaiVizsga\\gyak1\\1_programozas\\megoldas\\RealEstate\\RealEstate\\Program.cs",
+              "RelativeToolTip": "RealEstate\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T09:05:51.542Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
