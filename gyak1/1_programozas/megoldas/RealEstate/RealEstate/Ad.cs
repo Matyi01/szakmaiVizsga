@@ -23,20 +23,21 @@ namespace RealEstate
 
             string[] s = line.Split(";");
             
-            Category category = new Category(Int32.Parse(s[5]), s[13]);
+            Category category = new Category(Int32.Parse(s[12]), s[13]);
 
-            Seller seller = new Seller(Int32.Parse(s[5]), s[10], s[11]);
+            Seller seller = new Seller(Int32.Parse(s[9]), s[10], s[11]);
 
 
-            this.Area = Int32.Parse(s[0]);
+            this.Area = Int32.Parse(s[4]);
             this.Category = category;
-            this.Description = s[2];
+            this.CreateAt = DateTime.Parse(s[8]);
+            this.Description = s[5];
             this.Floors = Int32.Parse(s[3]);
-            this.FreeOfCharge = bool.Parse(s[4];
-            this.Id = Int32.Parse(s[5]);
-            this.ImageUrl = s[6];
-            this.LatLong = s[7];
-            this.Rooms = Int32.Parse(s[8]);
+            this.FreeOfCharge = s[6] == "1";
+            this.Id = Int32.Parse(s[0]);
+            this.ImageUrl = s[7];
+            this.LatLong = s[2];
+            this.Rooms = Int32.Parse(s[1]);
             this.Seller = seller;
         }
     }
