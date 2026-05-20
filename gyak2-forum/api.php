@@ -4,6 +4,9 @@ $username = "root";
 $password = "";
 $dbname = "forum";
 
+header('Content-Type: application/json');
+header('Access-Control-Allow-Origin: *');
+
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 // Check connection

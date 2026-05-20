@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Mozi</title>
+    <style>
+        #mufajEredmeny {
+            float: right;
+        }
+        #eredmeny{
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid bg-secondary">
+        <header>
+            <h1 class="text-center">Mozi Cucc</h1>
+        </header>
+        <div class="row">
+            <div class="col-12">
+                <select id="mufajSelect" class="form-select mb-3" onchange="mufajSzures()">
+                    <option value="">Válassz műfajt</option>
+                </select>
+                <div id="eredmeny"></div>
+                <div id="mufajEredmeny"></div>
+            </div>
+        </div>
+        <footer>
+            <p class="text-center">Készítette ÉN</p>
+        </footer>
+    </div>
+    <script>
+        function init() {
+            beolvas();
+            mufajok();
+            mufajSzures();
+        }
+        function beolvas() {
+            fetch("filmek")
+                .then(x => x.json())
+                .then(data => {
+                    console.log(data);
+
+                    let html = "";
+
+                    data.forEach(e => {
+                        html += `<div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">${e.cim}</h5>
+                            <p class="card-text">Rendező: ${e.nev}</p>
+                            <button class="bg-danger">Törlés</button>
+                        </div>
+                    </div>`;
+                    });
+
+                    document.getElementById("eredmeny").innerHTML = html;
+                });
+        }
+        function mufajok() {
+            fetch("filmek")
+                .then(x => x.json())
+                .then(data => {
+                    console.log(data);
+
+                    let select = document.getElementById("mufajSelect");
+
+                    data.forEach(e => {
+                        if (!select.innerHTML.includes(e.mufaj)) {
+                            select.innerHTML += <option value="${e.mufaj}">${e.mufaj}</option>;
+                        }
+                    });
+                });
+        }
+        function mufajSzures() {
+            let mufaj = document.getElementById("mufajSelect").value;
+
+            fetch("filmek/mufaj/" + mufaj)
+                .then(x => x.json())
+                .then(data => {
+                    console.log(data);
+
+                    let html = "";
+
+                    data.forEach(e => {
+                        html += `<div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">${e.cim}</h5>
+                    </div>
+                </div>`;
+                    });
+
+                    document.getElementById("mufajEredmeny").innerHTML = html;
+                });
+        }
+        init();
+    </script>
+</body>
+
+</html>
